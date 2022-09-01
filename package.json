@@ -1,0 +1,27 @@
+{
+    "name": "@russo-programmisto/easy-types",
+    "version": "1.0.0",
+    "description": "Better way of working with types in TypeScript",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "rm -rf dist && tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/russo-programmisto/easy-types.git"
+    },
+    "author": "Igor Matyushkin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/russo-programmisto/easy-types/issues"
+    },
+    "homepage": "https://github.com/russo-programmisto/easy-types#readme",
+    "dependencies": {
+        "typescript": "4.1.2"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.3"
+    }
+}
